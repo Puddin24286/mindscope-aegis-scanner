@@ -1,0 +1,19 @@
+# Next.js build cache and production outputs
+.next/
+out/
+build/
+
+# Node environment modules dependency locks
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Strictly block all local identity profiles and server keys
+.env
+.env.local
+.env.production
+
+# OS system artifacts
+.DS_Store
+Thumbs.db
